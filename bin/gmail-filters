@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$: << 'lib'
+
+require 'bundler/setup'
+require 'gmail/filters'
+
+Gmail::Filters::Cli.new(ARGV).run

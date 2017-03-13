@@ -1,0 +1,5 @@
+require 'gmail/filters/cli'
+require 'gmail/filters/dsl'
+require 'gmail/filters/expr'
+require 'gmail/filters/model'
+require 'gmail/filters/xml'
